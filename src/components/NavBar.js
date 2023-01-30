@@ -6,7 +6,7 @@ function NavBar() {
       <Link to='/'>Megan Smith</Link>
       <ul>
         <li>
-          <Link to='/about'>About Me</Link>
+          <Link to='/about'>About</Link>
         </li>
         <li>
           <Link to='/contact'>Contact</Link>
