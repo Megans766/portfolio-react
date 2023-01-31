@@ -1,3 +1,5 @@
+// import Resume.pdf from '../../public/Resume.pdf'
+
 function Resume() {
   return (
     <>
