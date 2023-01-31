@@ -1,10 +1,10 @@
-// import Resume.pdf from '../../public/Resume.pdf'
+import React from "react"
 
 function Resume() {
   return (
     <>
     <h1>Resume</h1>
-    <p>Click <a href='./Resume.pdf'>here </a>to download my resume</p>
+    <button className='button'><a className='button' href='./Resume.pdf' download>Download Resume</a></button>
     <h3>Current Skills</h3>
     <div>
       <p>HTML</p>
