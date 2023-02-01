@@ -4,7 +4,7 @@ function Resume() {
   return (
     <>
     <h1>Resume</h1>
-    <button className='button'><a className='button' href='./Resume.pdf' download>Download Resume</a></button>
+    <button><a href='./Resume.pdf' download>Download Resume</a></button>
     <h3>Current Skills</h3>
     <div>
       <p>HTML</p>
