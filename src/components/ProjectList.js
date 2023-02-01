@@ -1,10 +1,15 @@
 import projects from "../pages/data/projects";
-import 
+import ProjectPreview from "./ProjectPreview";
 
 function ProjectList() {
   return (
     <>
-
+      <div>
+        <h2>Projects</h2>
+        <ul>
+          <ProjectPreview projects={projects} />
+        </ul>
+      </div>
     </>
   )
 }

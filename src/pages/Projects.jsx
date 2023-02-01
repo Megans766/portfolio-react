@@ -3,11 +3,13 @@ import ProjectList from "../components/ProjectList"
 
 function Projects() {
   return (
-    <div>
-      <ul>
-        <ProjectList projects={projects} />
-      </ul>
+    <>
+      <div>
+        <ul>
+          <ProjectList projects={projects} />
+        </ul>
     </div>
+    </>
   )
 }
 
