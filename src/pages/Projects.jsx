@@ -1,17 +1,13 @@
 import projects from "./data/projects"
+import ProjectList from "../components/ProjectList"
 
 function Projects() {
   return (
-    <>
-    <section>
-      {projects.map((project, index) => 
-        <li key={index}>
-          {project.title}
-          {/* {project.image} */}
-        </li>
-      )}
-    </section>
-    </>
+    <div>
+      <ul>
+        <ProjectList projects={projects} />
+      </ul>
+    </div>
   )
 }
 
