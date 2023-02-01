@@ -8,6 +8,7 @@ function ProjectPreview() {
           <li key={index}>
             {project.title}
             {project.image}
+            <button>View Project</button>
           </li>
         )}
       </section>
