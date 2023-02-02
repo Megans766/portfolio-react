@@ -2,7 +2,6 @@ function About() {
   return (
     <>
       <h2>About Megan</h2>
-      <h4>maybe put a photo here</h4>
       <p>
         I'm a Software Engineer with a background in renewable energy. I enjoy problem-solving, working on team oriented projects, and acquiring new skills and knowledge. I am currently pursuing a BS in Computer Science from SNHU and a Software Engineering Immersive Certificate from General Assembly.
       </p>
@@ -14,7 +13,6 @@ function About() {
         <div>Reading</div>
         <div>Mini Golf</div>
       </div>
-
     </>
   )
 }
